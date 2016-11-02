@@ -115,3 +115,40 @@
     color: grey;
   }
 }
+
+
+
+
+
+
+
+.search-modal {
+  position: fixed;
+  width: 100%;
+  height: 91px;
+  border-bottom: 4px solid #0DE2EA;
+  background-color: white;
+  top: 50px;
+  left: 0px;
+  padding-left: 110px;
+  z-index: 29;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 25px;
+}
+
+.text-in-search-modal {
+  font-size: 22px;
+  font-weight: 400;
+  color: rgba(55,55,55,0.7);
+}
+
+.close-search-modal {
+  font-size: 16px;
+  opacity: 0.6;
+  cursor: pointer;
+  &:hover {
+    opacity: 0.9;
+  }
+}
