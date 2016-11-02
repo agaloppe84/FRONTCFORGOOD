@@ -40,6 +40,9 @@
   background-image: image-url("background-pouce.png");
   background-size: cover;
   background-position: center center;
+  &:hover {
+    cursor: pointer;
+  }
 }
 
 
@@ -47,7 +50,11 @@
   position: absolute;
   top: 28px;
   right: -5px;
+  &:hover {
+    cursor: pointer;
+  }
 }
+
 
 .dropdown-menu {
   box-shadow: none;

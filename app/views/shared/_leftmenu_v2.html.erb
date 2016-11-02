@@ -1,23 +1,29 @@
 <div class="leftmenu-v2">
 
 
-    <div class="leftmenu-v2-item">
+    <div class="leftmenu-v2-item <%= active_class('/') %>">
       <%= link_to root_path do %>
         <i class="fa fa-superpowers" aria-hidden="true"></i>
       <% end %>
     </div>
 
+    <div class="leftmenu-v2-item <%= active_class('/business') %>">
+      <%= link_to business_path do %>
+        <i class="fa fa-superpowers" aria-hidden="true"></i>
+      <% end %>
+    </div>
 
-  <div class="leftmenu-v2-item">
-    <i class="fa fa-superpowers" aria-hidden="true"></i>
-  </div>
+    <div class="leftmenu-v2-item <%= active_class('/dashboard') %>">
+      <%= link_to dashboard_path do %>
+        <i class="fa fa-superpowers" aria-hidden="true"></i>
+      <% end %>
+    </div>
 
-  <div class="leftmenu-v2-item">
-    <i class="fa fa-superpowers" aria-hidden="true"></i>
-  </div>
+    <div class="leftmenu-v2-item <%= active_class('/perk') %>">
+      <%= link_to perk_path do %>
+        <i class="fa fa-superpowers" aria-hidden="true"></i>
+      <% end %>
+    </div>
 
-  <div class="leftmenu-v2-item">
-    <i class="fa fa-superpowers" aria-hidden="true"></i>
-  </div>
 
 </div>
