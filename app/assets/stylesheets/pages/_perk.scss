@@ -1,0 +1,32 @@
+.new-filters-container {
+  width: 100%;
+  height: 130px;
+  background-color: grey;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+
+.filters-icon-plus-text-container {
+  width: 110px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.filters-icon {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-color: white;
+  border: 2px solid yellow;
+  margin-bottom: 9px;
+}
+
+.filters-text {
+  font-size: 9px;
+  color: white;
+}
