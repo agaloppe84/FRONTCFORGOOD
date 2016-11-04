@@ -3,25 +3,25 @@
 
     <div class="leftmenu-v2-item <%= active_class('/') %>">
       <%= link_to root_path do %>
-        <i class="fa fa-superpowers" aria-hidden="true"></i>
+        <div class="left-menu-svg-container" style="background-image: url(<%= asset_path "bonplan.svg" %>)"></div>
       <% end %>
     </div>
 
     <div class="leftmenu-v2-item <%= active_class('/business') %>">
       <%= link_to business_path do %>
-        <i class="fa fa-superpowers" aria-hidden="true"></i>
+        <div class="left-menu-svg-container" style="background-image: url(<%= asset_path "association.svg" %>)"></div>
       <% end %>
     </div>
 
     <div class="leftmenu-v2-item <%= active_class('/dashboard') %>">
       <%= link_to dashboard_path do %>
-        <i class="fa fa-superpowers" aria-hidden="true"></i>
+        <div class="left-menu-svg-container" style="background-image: url(<%= asset_path "dashboard.svg" %>)"></div>
       <% end %>
     </div>
 
     <div class="leftmenu-v2-item <%= active_class('/perk') %>">
       <%= link_to perk_path do %>
-        <i class="fa fa-superpowers" aria-hidden="true"></i>
+        <div class="left-menu-svg-container" style="background-image: url(<%= asset_path "ambassadeur.svg" %>)"></div>
       <% end %>
     </div>
 

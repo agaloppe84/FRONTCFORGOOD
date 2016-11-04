@@ -22,11 +22,21 @@
   height: 70px;
   border-radius: 50%;
   background-color: white;
-  border: 2px solid yellow;
   margin-bottom: 9px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .filters-text {
   font-size: 9px;
   color: white;
+}
+
+.filters-photo-container {
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+  width: 35px;
+  height: 35px;
 }
